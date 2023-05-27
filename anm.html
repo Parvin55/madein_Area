@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes fadeInOut {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      #animated-letter {
+        animation: fadeInOut 2s infinite;
+        font-size: 48px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="animated-letter">A</span>
+  </body>
+</html>
